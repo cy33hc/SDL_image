@@ -6,7 +6,7 @@ OBJS = IMG.o IMG_bmp.o IMG_gif.o IMG_jpg.o IMG_lbm.o IMG_pcx.o IMG_png.o \
 
 PREFIX  = arm-vita-eabi
 CC      = $(PREFIX)-gcc
-AR      = $(PREFIX)-gcc-ar
+AR      = $(PREFIX)-ar
 
 CFLAGS  = -Wl,-q -Wall -O2 \
 	-Wno-unused-but-set-variable \
